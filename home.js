@@ -94,10 +94,27 @@ for(let num = 0; num <= 10; num++){
 }
 
 // Data types
- let yourAge = 18; //number
- let yourName = 'Harika'; //string
- let name = {first: 'Jane', last: 'Doe'}; //object
- let truth = false; //boolean
+ let yourAge = 18;                              //number
+ let yourName = 'Harika';                       //string
+ let name = {first: 'Jane', last: 'Doe'};       //object
+ let truth = false;                             //boolean
  let groceries = ['apple', 'banana', 'orange']; // array
- let random; //undefined
- let nothing = null; //value null
+ let random;                                    //undefined
+ let nothing = null;                            //value null
+
+ //Strings in Javascript (common methods)
+
+ let fruit = 'banana';
+ let moreFruits = 'banana\napple';
+
+ console.log(fruit.length);
+ console.log(fruit.indexOf('nan'));
+ console.log(fruit.slice(2,6));
+ console.log(fruit.replace('ban', '123'));
+ console.log(fruit.toLowerCase());
+ console.log(fruit.toUpperCase());
+ console.log(fruit.charAt(2));
+ console.log(fruit[2]);
+ console.log(fruit.split(',')); //split by a comma
+ console.log(fruit.split('')); //split by characters
+
