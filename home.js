@@ -118,3 +118,45 @@ for(let num = 0; num <= 10; num++){
  console.log(fruit.split(',')); //split by a comma
  console.log(fruit.split('')); //split by characters
 
+ // Arrays in javascript
+ let fruits = ['apple', 'banana', 'orange', 'mango', 'kiwi'];
+ fruits = new Array ('apple', 'banana', 'orange', 'mango', 'kiwi');
+
+ console.log(fruits[0]); //access value of index 0
+
+ fruits[0] = 'peach';
+ console.log(fruits); 
+
+ for(let i=0; i < fruits.length; i++ ){
+     console.log(fruits[i]);
+ }
+
+ //array common methods
+ console.log('to string', fruits.toString());
+ console.log(fruits.join('/'));
+ console.log(fruits.pop(), fruits); //removes last item
+ console.log(fruits.push('blackberry'), fruits); //appends
+ console.log(fruits[4]);
+ fruits[4] = 'new fruit'; //same as push
+ console.log(fruits);
+ fruits.shift(); // remove the first element from an array
+ console.log(fruits);
+ fruits.unshift('kiwi'); //add first element to an array
+ console.log(fruits);
+
+ let veggies = ['Tomato', 'onion', 'brinjal', 'potato'];
+ let allGroceries = fruits.concat(veggies);
+ console.log(allGroceries);
+ console.log(allGroceries.slice(1,4));
+ console.log(allGroceries.reverse());
+ console.log(allGroceries.sort());
+
+ let someNumbers = [2,3,4,5,3,2,5,3,4,23,2,4,5,45,322];
+ console.log(someNumbers.sort(function(a, b) {return a-b})); //sorted in ascending order
+ console.log(someNumbers.sort(function(a, b) {return b-a})); //sorted in descending order
+
+ let emptyArray = new Array();
+ for (let num = 0; num < 10; num++){
+     emptyArray.push(num);
+ }
+console.log(emptyArray);
