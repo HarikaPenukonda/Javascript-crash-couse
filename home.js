@@ -93,5 +93,11 @@ for(let num = 0; num <= 10; num++){
     console.log(num);
 }
 
-
-
+// Data types
+ let yourAge = 18; //number
+ let yourName = 'Harika'; //string
+ let name = {first: 'Jane', last: 'Doe'}; //object
+ let truth = false; //boolean
+ let groceries = ['apple', 'banana', 'orange']; // array
+ let random; //undefined
+ let nothing = null; //value null
