@@ -21,9 +21,19 @@ document.getElementById('someText').innerHTML = 'Hey There';
 //Numbers in javascript
 
 var num1 = 56;
+
 //num1 = num1 + 1
 //Increment num1 by 1
 num1++;
+console.log(num1);
+
 //Decrement num1 by 1
 num1--;
+console.log(num1);
+
+// Divide, multiply *, remainder %
+console.log(num1 % 6);
+
+//Increment/decrement by any number i want
+num1 += 10;
 console.log(num1);
